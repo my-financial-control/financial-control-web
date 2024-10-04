@@ -14,10 +14,6 @@ $font-exbold: 800;
     letter-spacing: 0;
 }
 
-body {
-    font-family: "Inter", sans-serif;
-}
-
 .text {
     &-light-16-24 {
         @include text-style($font-light, 16px, 24px);

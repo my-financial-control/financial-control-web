@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url('styles/fonts.scss');
-@import url('styles/colors.scss');
+@import 'styles/reset.scss';
+@import 'styles/fonts.scss';
+@import 'styles/colors.scss';
+
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: $main-bg;
+}
