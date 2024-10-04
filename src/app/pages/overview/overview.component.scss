@@ -1,0 +1,41 @@
+.overview {
+    display: grid;
+    grid-template-columns: 2fr 3fr 5fr;
+    grid-template-rows: repeat(4, 1fr);
+
+    &__menu {
+        background-color: darkcyan;
+        grid-column: 1 / 2;
+        grid-row: 1 / 5;
+    }
+
+    &__header {
+        background-color: tomato;
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+
+    &__top-content {
+        background-color: navy;
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+
+    &__recent-transactions {
+        background-color: violet;
+        grid-column: 2 / 3;
+        grid-row: 3 / 5;
+    }
+
+    &__statistics {
+        background-color: purple;
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+
+    &__expenses-breakdown {
+        background-color: greenyellow;
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    }
+}
