@@ -1,0 +1,14 @@
+@import '../../../../../styles/colors.scss';
+
+.logout-button {
+    display: flex;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+
+    &__icon {
+        size: 24px;
+        margin-right: 10px;
+    }
+}
