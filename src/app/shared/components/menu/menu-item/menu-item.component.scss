@@ -1,0 +1,12 @@
+.menu-item {
+    display: flex;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+
+    &__image {
+        margin-right: 10px;
+        size: 24px;
+    }
+}
