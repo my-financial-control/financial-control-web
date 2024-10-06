@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-profile',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './menu-profile.component.scss'
 })
 export class MenuProfileComponent {
-
+  @Input({ required: true }) profileName: string = '';
+  @Input() image: string = '';
 }
