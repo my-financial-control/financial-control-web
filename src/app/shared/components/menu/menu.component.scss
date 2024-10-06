@@ -27,6 +27,12 @@
     }
 
     &__footer {
+        display: flex;
+        flex-direction: column;
         height: 20%;
+    }
+
+    &__divider {
+        margin: 32px 0;
     }
 }
