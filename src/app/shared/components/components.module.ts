@@ -4,7 +4,7 @@ import { MenuComponent } from './menu/menu.component';
 import { MenuItemComponent } from './menu/menu-item/menu-item.component';
 import { MenuLogoComponent } from './menu/menu-logo/menu-logo.component';
 import { LogoutButtonComponent } from './menu/logout-button/logout-button.component';
-import { MenuProfileComponent } from './menu-profile/menu-profile.component';
+import { MenuProfileComponent } from './menu/menu-profile/menu-profile.component';
 
 @NgModule({
   declarations: [
