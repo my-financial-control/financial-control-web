@@ -1,8 +1,8 @@
 <header class="header">
     <div class="header__left-container">
-        <h1 class="text-bold-24-28">Hello Tanzir</h1>
+        <h1 class="text-bold-24-28">Hello {{ name }}</h1>
         <img src="assets/icons/chevrons-right.svg" class="header__left-icon">
-        <p class="header__date text-regular-14-20">May 19, 2023</p>
+        <p class="header__date text-regular-14-20">{{ date | date : 'MMM dd, YYYY' }}</p>
     </div>
 
     <div class="header__right-container">
