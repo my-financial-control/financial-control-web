@@ -1,7 +1,7 @@
 .overview {
     display: grid;
     grid-template-columns: 1.36fr 3fr 5fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 0.25fr repeat(3, 1fr);
     height: 100%;
 
     &__menu {
@@ -10,7 +10,6 @@
     }
 
     &__header {
-        background-color: tomato;
         grid-column: 2 / 4;
         grid-row: 1 / 2;
     }

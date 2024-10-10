@@ -5,6 +5,7 @@ import { MenuItemComponent } from './menu/menu-item/menu-item.component';
 import { MenuLogoComponent } from './menu/menu-logo/menu-logo.component';
 import { LogoutButtonComponent } from './menu/logout-button/logout-button.component';
 import { MenuProfileComponent } from './menu/menu-profile/menu-profile.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +14,14 @@ import { MenuProfileComponent } from './menu/menu-profile/menu-profile.component
     MenuLogoComponent,
     LogoutButtonComponent,
     MenuProfileComponent,
+    HeaderComponent,
   ],
   imports: [
     CommonModule,
   ],
   exports: [
     MenuComponent,
+    HeaderComponent,
   ]
 })
 export class ComponentsModule { }

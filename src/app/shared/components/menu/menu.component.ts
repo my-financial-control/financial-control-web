@@ -20,7 +20,7 @@ export class MenuComponent {
     { title: 'Expenses', image: 'assets/icons/expenses.svg', isSelected: false },
     { title: 'Goals', image: 'assets/icons/goal.svg', isSelected: false },
     { title: 'Settings', image: 'assets/icons/settings.svg', isSelected: false },
-  ]
+  ];
 
   onClickMenuItem(item: MenuItem) {
     this.menuItems.forEach((menuItem) => {
