@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class HeaderComponent {
   date: Date = new Date();
 
+  @Input() showHello: boolean = false;
   @Input({ required: true }) name: string = '';
 }
