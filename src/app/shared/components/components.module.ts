@@ -7,6 +7,7 @@ import { LogoutButtonComponent } from './menu/logout-button/logout-button.compon
 import { MenuProfileComponent } from './menu/menu-profile/menu-profile.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchInputComponent } from './search-input/search-input.component';
+import { ResumeCardComponent } from './resume-card/resume-card.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SearchInputComponent } from './search-input/search-input.component';
     MenuProfileComponent,
     HeaderComponent,
     SearchInputComponent,
+    ResumeCardComponent,
   ],
   imports: [
     CommonModule,
@@ -24,6 +26,7 @@ import { SearchInputComponent } from './search-input/search-input.component';
   exports: [
     MenuComponent,
     HeaderComponent,
+    ResumeCardComponent,
   ]
 })
 export class ComponentsModule { }

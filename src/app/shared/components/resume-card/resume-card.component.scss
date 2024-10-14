@@ -1,0 +1,16 @@
+@import '../../../../styles/colors.scss';
+
+.resume-card {
+    width: 352px;
+    height: 272px;
+
+    &__header {
+        width: 100%;
+        height: 32px;
+        color: $gray-2;
+    }
+
+    &__content {
+        padding: 24px;
+    }
+}
