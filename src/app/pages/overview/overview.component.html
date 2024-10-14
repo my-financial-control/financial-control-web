@@ -1,16 +1,18 @@
 <div class="overview">
     <app-menu class="overview__menu" />
-    <app-header class="overview__header" name="Tanzir" [showHello]="true"/>
-    <section class="overview__top-content">
-        Top Content
+    <app-header class="overview__header overview__content" name="Tanzir" [showHello]="true" />
+    <section class="overview__top-content overview__content">
+        <app-resume-card title="Total Balance">
+            <p>Content</p>
+        </app-resume-card>
     </section>
-    <section class="overview__recent-transactions">
+    <section class="overview__recent-transactions overview__content">
         Recent Transactions
     </section>
-    <section class="overview__statistics">
+    <section class="overview__statistics overview__content">
         Statistics
     </section>
-    <section class="overview__expenses-breakdown">
+    <section class="overview__expenses-breakdown overview__content">
         Expenses Breakdown
     </section>
 </div>
