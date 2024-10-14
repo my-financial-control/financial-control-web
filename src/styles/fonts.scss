@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './colors.scss';
 
 $font-light: 300;
 $font-regular: 400;
@@ -89,4 +90,69 @@ $font-exbold: 800;
     font-weight: $font-exbold;
     font-size: 24px;
     line-height: 32px;
+}
+
+// Font colors
+.text-primary {
+    color: $primary-color;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+.text-default-black {
+    color: $default-black;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-gray-1 {
+    color: $gray-1;
+}
+
+.text-gray-2 {
+    color: $gray-2;
+}
+
+.text-gray-3 {
+    color: $gray-3;
+}
+
+.text-gray-4 {
+    color: $gray-4;
+}
+
+.text-gray-5 {
+    color: $gray-5;
+}
+
+.text-gray-6 {
+    color: $gray-6;
+}
+
+.text-special-bg {
+    color: $special-bg;
+}
+
+.text-special-bg2 {
+    color: $special-bg2;
+}
+
+.text-special-bg3 {
+    color: $special-bg3;
+}
+
+.text-red {
+    color: $red;
+}
+
+.text-green {
+    color: $green;
+}
+
+.text-main-bg {
+    color: $main-bg;
 }

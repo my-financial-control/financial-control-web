@@ -1,0 +1,25 @@
+@import '../../../../../styles/colors.scss';
+
+.account-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 24px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__amount {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        svg {
+            margin-left: 8px;
+        }
+    }
+}
