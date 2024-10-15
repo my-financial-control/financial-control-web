@@ -21,6 +21,7 @@
     &__top-content {
         grid-column: 2 / 4;
         grid-row: 2 / 3;
+        display: flex;
     }
 
     &__recent-transactions {

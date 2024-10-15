@@ -5,6 +5,8 @@ import { SharedModule } from '../../shared/shared.module';
 import { BalanceCardComponent } from './components/total-balance-card/balance-card.component';
 import { AccountCardComponent } from './components/account-card/account-card.component';
 import { SliderFooterComponent } from './components/slider-footer/slider-footer.component';
+import { GoalsCardComponent } from './components/goals-card/goals-card.component';
+import { TargetDetailsComponent } from './components/target-details/target-details.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +14,8 @@ import { SliderFooterComponent } from './components/slider-footer/slider-footer.
     BalanceCardComponent,
     AccountCardComponent,
     SliderFooterComponent,
+    GoalsCardComponent,
+    TargetDetailsComponent,
   ],
   imports: [
     CommonModule,

@@ -8,6 +8,8 @@ import { MenuProfileComponent } from './menu/menu-profile/menu-profile.component
 import { HeaderComponent } from './header/header.component';
 import { SearchInputComponent } from './search-input/search-input.component';
 import { ResumeCardComponent } from './resume-card/resume-card.component';
+import { SpeedChartComponent } from './speed-chart/speed-chart.component';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
@@ -19,14 +21,17 @@ import { ResumeCardComponent } from './resume-card/resume-card.component';
     HeaderComponent,
     SearchInputComponent,
     ResumeCardComponent,
+    SpeedChartComponent,
   ],
   imports: [
     CommonModule,
+    GoogleChartsModule,
   ],
   exports: [
     MenuComponent,
     HeaderComponent,
     ResumeCardComponent,
+    SpeedChartComponent,
   ]
 })
 export class ComponentsModule { }
